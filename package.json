@@ -1,0 +1,42 @@
+{
+  "name": "@petclaw/sdk",
+  "version": "1.0.0",
+  "description": "PetClaw Protocol SDK — Companion AI with Data Sovereignty",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "petclaw-mcp": "./mcp/server.js"
+  },
+  "files": [
+    "dist",
+    "mcp",
+    "skills",
+    "README.md",
+    "docs"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "mcp": "node mcp/server.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "pet",
+    "companion",
+    "sovereignty",
+    "web4",
+    "mcp",
+    "petclaw",
+    "agent"
+  ],
+  "author": "MY AI PET",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myaipet/petclaw"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^5.0.0"
+  }
+}
