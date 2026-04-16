@@ -1,6 +1,6 @@
 {
-  "name": "@petclaw/sdk",
-  "version": "1.0.0",
+  "name": "petclaw-sdk",
+  "version": "1.1.0",
   "description": "PetClaw Protocol SDK — Companion AI with Data Sovereignty",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/myaipet/petclaw"
+    "url": "https://github.com/junheony/petclaw"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
